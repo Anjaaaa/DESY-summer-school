@@ -1,0 +1,80 @@
+\documentclass[12pt,oneside,notitlepage,abstracton,a4paper]{article}
+\usepackage{epsfig,scrpage2,graphicx}
+\usepackage[
+	separate-uncertainty=true,
+	per-mode=symbol-or-fraction,
+]{siunitx}
+\usepackage[
+	textwidth=3cm
+]{todonotes}
+\usepackage{amsmath}
+\setcounter{secnumdepth}{3}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0ex plus0.5ex minus0ex}
+\pagestyle{scrheadings}
+\bibliographystyle{unsrt}   
+
+\renewcommand{\headfont}{\normalfont}
+
+
+\title{\Large Thermal Performance of the Petal Prototype} 
+\author{\normalsize Anja Beck, TU Dortmund, Germany \\[3ex]
+DESY Summer Student Programme 2018 \\[3ex]
+ATLAS Experiment}
+\date{\normalsize \today}
+
+\begin{document}
+	\makeatletter
+	\begin{titlepage}
+		\begin{center}
+			\ \\[10ex]
+			{\huge \bfseries  \@title }\\[10ex] 
+			{\LARGE  \@author}\\[10ex]
+			{\large \@date}\\[30ex] 
+			\includegraphics[width=0.3\linewidth]{img/DESY_logo_4C.eps}\hspace{20ex}
+			\includegraphics[width=0.3\linewidth]{img/ATLAS-Logo-Square-Blue-RGB.eps}
+		\end{center}
+	\end{titlepage}
+	\makeatother
+	\thispagestyle{empty}
+	\newpage
+	\setcounter{page}{1}
+
+\begin{abstract}
+
+\noindent
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+\newpage 
+
+\section{Introduction}
+\input{contents/introduction.tex}
+
+\section{IR}
+\input{contents/ir.tex}
+
+\section{Emissivity Measurements\label{sec:emissivityMeasurement}}
+
+
+\section{Tests on the Petal}
+\subsection{Preparations}
+% Glue tests, Gluing, Paint tests, Painting
+\subsection{First Results}
+
+\section{More}
+% Describe all the smaller things I did? Liveplotting, etc.?
+
+
+\clearpage
+\begin{thebibliography}{99}
+\begin{sloppypar}
+\bibitem{my_reference} Study of ...
+{\em Author name}
+\end{sloppypar}
+\end{thebibliography}
+
+\end{document}
