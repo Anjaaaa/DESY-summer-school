@@ -1,0 +1,6 @@
+FILES IN THIS FOLDER:
+-----------------------------------------
+date.txt: all data that is not related to the camera
+date_epsXXX_temp.txt: camera data for the respective emissivity, only temperatures
+date_epsXXX_temp_power.txt: camera data for the respective emissivity, temperatures and powers and correct ambiant temperature
+date_eps100_camera.txt: first values taken, no changes in the pre-set ambiant temperature

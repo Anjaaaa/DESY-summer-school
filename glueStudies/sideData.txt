@@ -1,0 +1,6 @@
+#Time V_left V_right I_left I_right chiller
+#time volt volt ampere ampere celsius
+1824 0.00 0.00 0.00 0.00 12
+1908 3.02 3.00 1.00 1.00 12
+1907 3.03 3.01 1.00 1.00 12
+1929 5.86 5.81 2.00 2.00 12

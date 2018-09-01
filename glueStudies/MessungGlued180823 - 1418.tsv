@@ -1,0 +1,13 @@
+ID	Avg	Min	Max	SDev	Eps	ID	Avg	Min	Max	SDev	Eps
+TapeLeft	-13,76	-14,52	-13,01	0,37	1,00	TapeLeft	-16,27	-17,10	-15,45	0,40	0,95
+TapeRight	-13,69	-14,14	-13,28	0,17	1,00	TapeRight	-16,19	-16,68	-15,74	0,18	0,95
+SprayLeft	-16,25	-16,58	-15,92	0,14	1,00	SprayLeft	-19,00	-19,36	-18,63	0,15	0,95
+SprayRight	-16,13	-16,94	-15,24	0,41	1,00	SprayRight	-18,86	-19,76	-17,89	0,45	0,95
+SprayCentre	-16,03	-16,27	-15,73	0,12	1,00	SprayCentre	-18,76	-19,01	-18,43	0,13	0,95
+TapeCentre	-14,51	-15,23	-13,84	0,26	1,00	TapeCentre	-17,08	-17,87	-16,35	0,28	0,95
+SiTopLeft	-14,62	-14,83	-14,38	0,13	1,00	SiTopLeft	-17,20	-17,44	-16,94	0,14	0,95
+SiTopRight	-13,73	-14,06	-13,21	0,17	1,00	SiTopRight	-16,23	-16,59	-15,66	0,19	0,95
+SiMiddleLeft	-15,03	-15,21	-14,83	0,08	1,00	SiMiddleLeft	-17,65	-17,86	-17,44	0,09	0,95
+SiMiddleRight	-14,18	-14,47	-13,84	0,12	1,00	SiMiddleRight	-16,72	-17,04	-16,35	0,13	0,95
+SiBottomLeft	-14,73	-14,90	-14,39	0,09	1,00	SiBottomLeft	-17,33	-17,51	-16,96	0,10	0,95
+SiBottomRight	-13,62	-14,27	-7,79	0,95	1,00	SiBottomRight	-16,12	-16,82	-9,77	1,04	0,95
