@@ -2,20 +2,23 @@ To assess the thermal performance of the petal, we measure the emitted radiation
 \subsection{Emissivity}
 Every body emits IR radiation depending on its temperature. Light in the IR spectrum behaves identical to the more intuitive visible light. This means that surfaces can emit, absorb, and reflect IR radiation. Being purely interested in the \textit{emitted} power, we need to minimize reflection in the IR region. The emissivity $\epsilon$ describes the ability of a surface to reflect IR radiation. \todo{Is it really only IR or is there an emissivity for all ranges?} It is a value between $0$ and $1$, where $0$ corresponds to total reflection, whereas $1$ corresponds to no reflection. So, to achieve good results using IR measurements, we cover the petal with a high emissivity coating. The determination of the exact emissivity value for the chosen paint is described in section \ref{sec:emissivityMeasurement}.
 
-\subsection{Software}
 
-\subsection{Theory}
+\subsection{Conversion from Temperature to Power\label{sec:theory}}
 To fully comprehend and also for being able to check the camera data, a theoretical relation between the emitted power and temperature is crucial. As we are trying to approach an ideal black body using the high emissivity paint, Planck's law for black body radiation,
 \begin{align}
 	p(\lambda, T) = \frac{2hc^2}{\lambda^5}\frac{1}{\exp\left(hc/(\lambda k_\text{B}T)\right)-1} \ ,
 \end{align}
 can be a good start. \todo{Describe variables!} The IR camera measures radiation over a range of wavelengths, so we need to integrate this and obtain
 \begin{align}
-	P(T) = \int_{\lambda_\text{min}}^{\lambda_\text{max}}\frac{C_1}{\lambda^5}\frac{1}{\exp\left(C_2/(\lambda T)\right)-1}\ \text{d}\lambda \ .
+	F(T) = \int_{\lambda_\text{min}}^{\lambda_\text{max}}\frac{C_1}{\lambda^5}\frac{1}{\exp\left(C_2/(\lambda T)\right)-1}\ \text{d}\lambda \ .
 \end{align}
 Taking account of reflections of the ambiance, we propose the following equation
-\begin{align}
-	P_\text{tot.}(T) = \underbrace{\epsilon P(T)}_\text{emission} + \underbrace{(1-\epsilon)P(T_\text{amb.})}_\text{reflection of ambiance} \ .
+\begin{align}\label{eq:powerTemp}
+	P(T) = \underbrace{\epsilon F(T)}_\text{emission} + \underbrace{(1-\epsilon)F(T_\text{amb.})}_\text{reflection of ambiance} \ .
 \end{align}\todo{Describe variables!}
 
+\subsection{Comparing Manual and Camera Computations}
+\subsubsection{Different Wavelength Ranges}
+\subsubsection{Different Emissivities}
+\subsubsection{Fit with Global Scaling Factor}
 \clearpage

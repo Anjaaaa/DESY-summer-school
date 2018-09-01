@@ -1,13 +1,18 @@
 \contentsline {section}{\numberline {1}Introduction}{3}
 \contentsline {subsection}{\numberline {1.1}Petal}{3}
 \contentsline {subsection}{\numberline {1.2}Cooling System}{4}
-\contentsline {section}{\numberline {2}IR}{5}
+\contentsline {section}{\numberline {2}Infrared Theory}{5}
 \contentsline {subsection}{\numberline {2.1}Emissivity}{5}
-\contentsline {subsection}{\numberline {2.2}Software}{5}
-\contentsline {subsection}{\numberline {2.3}Theory}{5}
-\contentsline {subsubsection}{\numberline {2.3.1}Test of }{6}
+\contentsline {subsection}{\numberline {2.2}Conversion from Temperature to Power}{5}
+\contentsline {subsection}{\numberline {2.3}Comparing Manual and Camera Computations}{6}
+\contentsline {subsubsection}{Different Wavelength Ranges}{6}
+\contentsline {subsubsection}{Different Emissivities}{6}
+\contentsline {subsubsection}{Fit with Global Scaling Factor}{6}
 \contentsline {section}{\numberline {3}Emissivity Measurements}{7}
-\contentsline {section}{\numberline {4}Tests on the Petal}{7}
-\contentsline {subsection}{\numberline {4.1}Preparations}{7}
-\contentsline {subsection}{\numberline {4.2}First Results}{7}
-\contentsline {section}{\numberline {5}More}{7}
+\contentsline {subsection}{\numberline {3.1}Set-Up}{7}
+\contentsline {subsection}{\numberline {3.2}Results}{7}
+\contentsline {section}{\numberline {4}Understanding the Camera Software}{9}
+\contentsline {section}{\numberline {5}Tests on the Petal}{12}
+\contentsline {subsection}{\numberline {5.1}Preparations}{12}
+\contentsline {subsection}{\numberline {5.2}First Results}{12}
+\contentsline {section}{\numberline {6}More}{12}

@@ -4,14 +4,13 @@
 	separate-uncertainty=true,
 	per-mode=symbol-or-fraction,
 ]{siunitx}
+\usepackage{subcaption}
 \usepackage[
 	textwidth=3cm
 ]{todonotes}
 \usepackage{amsmath}
-\setcounter{secnumdepth}{3}
+\setcounter{secnumdepth}{2}
 
-\setlength{\parindent}{0em}
-\setlength{\parskip}{0ex plus0.5ex minus0ex}
 \pagestyle{scrheadings}
 \bibliographystyle{unsrt}   
 
@@ -54,12 +53,13 @@ ATLAS Experiment}
 \section{Introduction}
 \input{contents/introduction.tex}
 
-\section{IR}
+\section{Infrared Theory}
 \input{contents/ir.tex}
 
 \section{Emissivity Measurements\label{sec:emissivityMeasurement}}
-
-
+\input{emissivity.tex}
+\section{Understanding the Camera Software}
+\input{contents/software.tex}
 \section{Tests on the Petal}
 \subsection{Preparations}
 % Glue tests, Gluing, Paint tests, Painting
