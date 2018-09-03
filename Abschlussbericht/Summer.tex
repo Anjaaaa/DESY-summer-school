@@ -1,21 +1,53 @@
-\documentclass[12pt,oneside,notitlepage,abstracton,a4paper]{article}
-\usepackage{epsfig,scrpage2,graphicx}
+\documentclass[11pt,oneside,abstracton,a4paper]{article}
+
+
+\usepackage{geometry}
+\geometry{left=1.5cm, right=1.5cm, top=2cm, bottom=2cm}
+
+
+\usepackage{coffee4}
+\usepackage{eso-pic}
+\usepackage{epsfig,graphicx,subcaption}
 \usepackage[
 	separate-uncertainty=true,
 	per-mode=symbol-or-fraction,
-]{siunitx}
-\usepackage{subcaption}
-\usepackage[
-	textwidth=3cm
-]{todonotes}
+	]{siunitx}
 \usepackage{amsmath}
+\usepackage{lipsum}
+
+
 \setcounter{secnumdepth}{2}
+\definecolor{DESYorange}{RGB}{242,142,0}
+\definecolor{DESYblue}{RGB}{0,166,235}
+\definecolor{DESYgrey}{RGB}{119,119,119}
+\usepackage[
+	colorlinks,
+	linkcolor={DESYblue!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+	]{hyperref}
+\usepackage{pdflscape}
+\usepackage{lineno}
 
-\pagestyle{scrheadings}
-\bibliographystyle{unsrt}   
+\usepackage[
+	disable,
+	textwidth=3cm
+	]{todonotes}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{DESY Summer School 2018}
+\lhead{Anja Beck}
+\lfoot{Thermal Performance of the Petal Prototype}
+\rfoot{\thepage}
 
-\renewcommand{\headfont}{\normalfont}
 
+
+%\AddToShipoutPictureBG{
+%	\cofeAm{0.2}{1}{0}{-10cm}{-10cm}
+%	\cofeDm{0.05}{1}{0}{7cm}{15cm}
+%	\cofeCm{1}{1}{0}{1cm}{0cm}
+%}
 
 \title{\Large Thermal Performance of the Petal Prototype} 
 \author{\normalsize Anja Beck, TU Dortmund, Germany \\[3ex]
@@ -23,6 +55,8 @@ DESY Summer Student Programme 2018 \\[3ex]
 ATLAS Experiment}
 \date{\normalsize \today}
 
+\setlength\parindent{0pt}
+\linenumbers
 \begin{document}
 	\makeatletter
 	\begin{titlepage}
@@ -30,9 +64,22 @@ ATLAS Experiment}
 			\ \\[10ex]
 			{\huge \bfseries  \@title }\\[10ex] 
 			{\LARGE  \@author}\\[10ex]
-			{\large \@date}\\[30ex] 
-			\includegraphics[width=0.3\linewidth]{img/DESY_logo_4C.eps}\hspace{20ex}
-			\includegraphics[width=0.3\linewidth]{img/ATLAS-Logo-Square-Blue-RGB.eps}
+			{\large Supervisor: Claire David}\\[10ex]
+			{\large \@date}\\[10ex]
+			\begin{abstract}
+				\noindent
+				With the LHC luminosity upgrade, the requirements regarding heat resistance for the detector parts aggravate significantly. To ensure stable measurements and avoid thermal runaway during the measurements, assessing the thermal performance of each of the detector parts is crucial. This report treats the preparations and measurements concerning the thermal behaviour of a petal prototype for the ATLAS inner tracking detector during the Summer Student Programme 2018 at DESY. \\
+				\noindent
+				This includes determination of the high emissivity coating for the infrared measurements, studies on the theoretical conversion between emitted power and temperature, understanding the camera software, as well as first results of the measurements with the petal.
+			\end{abstract}
+			\ \\[10ex]
+			\includegraphics[width=0.25\linewidth]{img/DESY_logo_4C.eps}\hspace{20ex}
+			\includegraphics[width=0.25\linewidth]{img/ATLAS-Logo-Square-Blue-RGB.eps} \\[10ex]
+%			\renewcommand{\abstractname}{Acknowledgements}
+%			\begin{abstract}
+%				\noindent
+%				
+%			\end{abstract}
 		\end{center}
 	\end{titlepage}
 	\makeatother
@@ -40,16 +87,12 @@ ATLAS Experiment}
 	\newpage
 	\setcounter{page}{1}
 
-\begin{abstract}
-
-\noindent
-\end{abstract}
-
 \newpage
 
 \tableofcontents
-\newpage 
-
+\newpage
+\listoftodos
+\newpage
 \section{Introduction}
 \input{contents/introduction.tex}
 
@@ -57,24 +100,14 @@ ATLAS Experiment}
 \input{contents/ir.tex}
 
 \section{Emissivity Measurements\label{sec:emissivityMeasurement}}
-\input{emissivity.tex}
+\input{contents/emissivity.tex}
 \section{Understanding the Camera Software}
 \input{contents/software.tex}
 \section{Tests on the Petal}
-\subsection{Preparations}
-% Glue tests, Gluing, Paint tests, Painting
-\subsection{First Results}
-
-\section{More}
-% Describe all the smaller things I did? Liveplotting, etc.?
-
+\input{contents/petal.tex}
 
 \clearpage
-\begin{thebibliography}{99}
-\begin{sloppypar}
-\bibitem{my_reference} Study of ...
-{\em Author name}
-\end{sloppypar}
-\end{thebibliography}
+\section{Summary and Outlook}
+\input{contents/summary.tex}
 
 \end{document}

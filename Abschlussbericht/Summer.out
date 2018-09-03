@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Petal}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Cooling System}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Infrared Theory}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Emissivity}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Conversion from Temperature to Power}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Comparing Manual and Camera Computations}{section.2}% 7
+\BOOKMARK [3][-]{section*.5}{Different Wavelength Ranges}{subsection.2.3}% 8
+\BOOKMARK [3][-]{section*.7}{Different Emissivities}{subsection.2.3}% 9
+\BOOKMARK [3][-]{section*.9}{Fit with Global Scaling Factor}{subsection.2.3}% 10
+\BOOKMARK [1][-]{section.3}{Emissivity Measurements}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Set-Up}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Results}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Understanding the Camera Software}{}% 14
+\BOOKMARK [1][-]{section.5}{Tests on the Petal}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Last Pre-Study on Gluing pt100s and Paint Emissivity on Si}{section.5}% 16
+\BOOKMARK [3][-]{section*.18}{Reliability of Glued pt100s}{subsection.5.1}% 17
+\BOOKMARK [3][-]{section*.20}{Emissivity of the Paint on Si}{subsection.5.1}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Spraying the Petal}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.3}{First Results}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Summary and Outlook}{}% 21

@@ -1,18 +1,21 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {subsection}{\numberline {1.1}Petal}{3}
-\contentsline {subsection}{\numberline {1.2}Cooling System}{4}
-\contentsline {section}{\numberline {2}Infrared Theory}{5}
-\contentsline {subsection}{\numberline {2.1}Emissivity}{5}
-\contentsline {subsection}{\numberline {2.2}Conversion from Temperature to Power}{5}
-\contentsline {subsection}{\numberline {2.3}Comparing Manual and Camera Computations}{6}
-\contentsline {subsubsection}{Different Wavelength Ranges}{6}
-\contentsline {subsubsection}{Different Emissivities}{6}
-\contentsline {subsubsection}{Fit with Global Scaling Factor}{6}
-\contentsline {section}{\numberline {3}Emissivity Measurements}{7}
-\contentsline {subsection}{\numberline {3.1}Set-Up}{7}
-\contentsline {subsection}{\numberline {3.2}Results}{7}
-\contentsline {section}{\numberline {4}Understanding the Camera Software}{9}
-\contentsline {section}{\numberline {5}Tests on the Petal}{12}
-\contentsline {subsection}{\numberline {5.1}Preparations}{12}
-\contentsline {subsection}{\numberline {5.2}First Results}{12}
-\contentsline {section}{\numberline {6}More}{12}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Petal}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Cooling System}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Infrared Theory}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Emissivity}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Conversion from Temperature to Power}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Comparing Manual and Camera Computations}{4}{subsection.2.3}
+\contentsline {subsubsection}{Different Wavelength Ranges}{4}{section*.5}
+\contentsline {subsubsection}{Different Emissivities}{4}{section*.7}
+\contentsline {subsubsection}{Fit with Global Scaling Factor}{4}{section*.9}
+\contentsline {section}{\numberline {3}Emissivity Measurements}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Set-Up}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Results}{8}{subsection.3.2}
+\contentsline {section}{\numberline {4}Understanding the Camera Software}{8}{section.4}
+\contentsline {section}{\numberline {5}Tests on the Petal}{11}{section.5}
+\contentsline {subsection}{\numberline {5.1}Last Pre-Study on Gluing pt100s and Paint Emissivity on Si}{11}{subsection.5.1}
+\contentsline {subsubsection}{Reliability of Glued pt100s}{11}{section*.18}
+\contentsline {subsubsection}{Emissivity of the Paint on Si}{11}{section*.20}
+\contentsline {subsection}{\numberline {5.2}Spraying the Petal}{11}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}First Results}{11}{subsection.5.3}
+\contentsline {section}{\numberline {6}Summary and Outlook}{17}{section.6}
